@@ -1,0 +1,35 @@
+name: banyuhub
+description: "A cross-platform academic event and community application for students and academic communities in Banyumas."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.3.1
+  dio: ^5.9.2
+  go_router: ^17.3.0
+  flutter_secure_storage: ^10.3.1
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.8.1
+  google_fonts: ^8.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  build_runner: ^2.15.0
+  freezed: ^3.2.5
+  json_serializable: ^6.13.0
+  riverpod_generator: ^4.0.3
+
+flutter:
+
+  uses-material-design: true
